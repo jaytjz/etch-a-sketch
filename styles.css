@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    height: 720px;
+}
+
+.square{
+    height: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    background-color: #4c6faf;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 5%;
+  }
+  
+button:hover {
+    background-color: #45a049;
+}
